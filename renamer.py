@@ -18,10 +18,10 @@ for i, file in enumerate(files):
     extension = file.split('.')[1].lower()
     # filename, extension = os.path.splitext(file)
     extension = str(extension).lower()
-    if
+    
     if str(extension).lower() in ["jpg", "jpeg", "png"]:
         # filename, extension = os.path.splitext(file)
-        newFilename = f"renamed{i + 1}.{extension}"
+        newFilename = f"nude hanz{i + 1}.{extension}"
         copiedFilePath = f"{outputPath}{fileName}"
         renamed = f"{outputPath}{newFilename}"
         shutil.copy(filePath, copiedFilePath)
